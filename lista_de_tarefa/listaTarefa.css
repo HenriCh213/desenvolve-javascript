@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.addTarefa {
+  display: flex;
+}
+
+#novaTarefa {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc8c8;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #40475e;
+}
+
+.tarefa {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  box-shadow: 1px 1px rgb(160, 160, 160);
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: gray;
+}
